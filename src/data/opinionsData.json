@@ -1,0 +1,17 @@
+[
+    {
+        "opinion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam",
+        "author": "Juan Pérez",
+        "stars": 5
+    },
+    {
+        "opinion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam",
+        "author": "Juan Pérez",
+        "stars": 5
+    },
+    {
+        "opinion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam",
+        "author": "Juan Pérez",
+        "stars": 5
+    }
+]
