@@ -6,11 +6,8 @@
 body{
   background-color: #F5F3EF;
 }
-.logo{
-  background-image: url("assets/img/Logo_Web.png");
-  /* height: 300px;
-  width: 200px;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center; */
+h2{
+  font-size: 46px;
+  font-family: "Montserrat", serif;
+  font-weight: 600;
 }

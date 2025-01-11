@@ -1,0 +1,51 @@
+.about{
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: top;
+}
+.about .about-info{
+    padding: 30px;
+    width: 800px;
+}
+.about .about-image img{
+    width: 400px;
+}
+
+.about h2{
+    width: 100%;
+    text-align: center;
+    font-size: 46px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+}
+.about-info h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+}
+
+.about-info p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 4px;
+}
+.line-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.line-title .line{
+    margin-top: 20px;
+    width: 100px;
+    height: 3px;
+    background-color: #F28B93;
+
+}
+b{
+    color: #6C3483;
+}
