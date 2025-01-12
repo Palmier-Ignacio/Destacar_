@@ -73,9 +73,7 @@ b{
         justify-content: center;
         align-items: center;
     }
-    .about .about-image img{
-        max-width: 500px;
-    }
+
     .about .about-info{
         padding-top: 0px;
     }
@@ -89,9 +87,6 @@ b{
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: center;
-    }
-    .logo-web{
-        display: block;
     }
 }
 @media screen and (max-width: 425px){
