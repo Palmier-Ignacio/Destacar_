@@ -26,3 +26,17 @@
     justify-content: center;
     align-items: center;
 }
+@media screen and (max-width: 1220px){
+    .testimonial{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 425px){
+    .testimonial{
+        width: 100%;
+        font-size: 14px;
+    }
+    .testimonial div{
+        flex-direction: column;
+    }
+}

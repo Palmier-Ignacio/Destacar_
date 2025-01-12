@@ -1,17 +1,19 @@
-.about{
-    width: 1200px;
+.about .about-container{
+    max-width: 1200px;
     margin: auto;
-    margin-top: 50px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: top;
+}
+.about{
+    margin-top: 50px;
 }
 .about .about-info{
     padding: 30px;
-    width: 800px;
+    max-width: 800px;
 }
 .about .about-image img{
-    width: 400px;
+    max-width: 400px;
 }
 
 .about h2{
@@ -48,4 +50,59 @@
 }
 b{
     color: #6C3483;
+}
+.logo-web{
+    display: none;
+}
+
+@media screen and (max-width: 1220px){
+    .about .about-info h3{
+        font-size: 20px;
+    }
+    .about .about-info p{
+        font-size: 18px;
+    }
+    .about .about-image img{
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .about .about-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .about-image img{
+        max-width: 500px;
+    }
+    .about .about-info{
+        padding-top: 0px;
+    }
+    .logo-movile{
+        display: none;
+    }
+    .about-image{
+        background-image: url("./assets/img/Logo_Web.png");
+        width: 400px;
+        height: 160px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+    .logo-web{
+        display: block;
+    }
+}
+@media screen and (max-width: 425px){
+    .about .about-image{
+        width: 240px;
+        height: 100px;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .about h2{
+        font-size: 36px;
+    }
 }

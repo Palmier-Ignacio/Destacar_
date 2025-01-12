@@ -21,13 +21,13 @@ header.navBar{
     height: 80px;
 }
 
-.navBar nav{
+.navBar nav.nav-web{
     width: 1300px;
     /* border:1px solid black; */
     height: 100%;
 }
 
-.navBar nav ul{
+.navBar nav.nav-web ul{
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -35,19 +35,19 @@ header.navBar{
     /* background-color: green; */
 }
 
-.navBar nav ul li{
+.navBar nav.nav-web ul li{
     list-style: none;
     font-size: 18px;
     /* background-color: white; */
 }
 
-.navBar nav ul li .linea{
+.navBar nav.nav-web ul li .linea{
     width: 2px;
     background-color: white;
     height: 30px;
 }
 
-.navBar nav ul li a{
+.navBar nav.nav-web ul li a{
     text-decoration: none;
     color: white;
     margin: 0px 10px;
@@ -55,9 +55,67 @@ header.navBar{
     font-family: sans-serif;
 }
 
-.navBar nav ul li a:hover{
+.navBar nav.nav-web ul li a:hover{
     color: #6C3483;
     transition: all 0.2s ease-in-out;   
     /* text-decoration: underline; */
 }
+.nav-movile{
+    display: none;
+}
+.nav-movile-button{
+    width: 50px;
+    height: 50px;
+    background-color: #6C3483;
+    border: none;
+    border-radius: 5px;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    display: none;
+}
+.nav-movile-button .nav-movile-button-line{
+    width: 70%;
+    height: 5px;
+    /* border-radius: 20px; */
+    background-color: white;
+    border-radius: 3px;
 
+}
+@media screen and (max-width: 1550px){
+    .navBar nav.nav-web{
+        width: 70%;
+    }
+    .logo-container .logo{
+        width: 180px;
+        height: 50px;
+    }
+    header.navBar{
+        height: 60px;
+    }
+    .navBar nav.nav-web ul li a{
+        padding: 20px 20px;
+    }
+}
+@media screen and (max-width: 940px){
+    header.navBar nav.nav-web ul li a{
+        font-size: 16px;
+        font-weight: 600;
+        padding: 20px 6px;
+    }
+}
+@media screen and (max-width: 768px){
+    .navBar nav.nav-web{
+        display: none;
+    }
+    .nav-movile-button{
+        display: flex;
+        margin-right: 20px;
+    }
+    header.navBar{
+        display: flex;
+        justify-content: space-between;
+    }
+}

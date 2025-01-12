@@ -11,3 +11,8 @@ h2{
   font-family: "Montserrat", serif;
   font-weight: 600;
 }
+@media screen and (max-width: 768px){
+  h2{
+    font-size: 36px;
+  }
+}

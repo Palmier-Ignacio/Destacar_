@@ -14,6 +14,8 @@
     flex-direction: column;
     justify-content: center;
     padding-bottom: 60px;
+    padding: 40px;
+    padding-top: 0;
 }
 
 .hero .hero-text h1{
@@ -44,6 +46,7 @@
     background-color: #C3A6E4;
     transition: all 0.2s ease-in-out;
     box-shadow: 0 0 10px #a48bc2;
+    color: black;
 }
 
 .hero .hero-text span{
@@ -62,4 +65,40 @@
 .hero .hero-image img{
     width: 100%;
     filter: drop-shadow(0 4px 10px #6C3483);
+}
+
+@media screen and (max-width: 1550px){
+    .hero .hero-text h1{
+        font-size: 36px;
+    }
+    .hero .hero-text p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 768px){
+    .hero .hero-image{
+        display: none;
+    }
+    .hero .hero-text{
+        width: 100%;
+    }
+    .hero .hero-text span{
+        width: 100%;
+        text-align: center;
+    }
+    .hero .hero-text a{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 425px){
+    .hero .hero-text h1{
+        font-size: 26px;
+    }
+    .hero .hero-text p{
+        font-size: 16px;
+    }
+    .hero{
+        margin-top: 20px;
+    }
 }
