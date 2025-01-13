@@ -7,6 +7,9 @@
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .testimonial p{

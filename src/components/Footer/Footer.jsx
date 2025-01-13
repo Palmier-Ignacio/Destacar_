@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      <p>&copy; 2021 - Destacar</p>
+      <p>&copy; 2024 - Destacar digital.</p>
     </footer>
   );
 }

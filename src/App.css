@@ -11,8 +11,14 @@ h2{
   font-family: "Montserrat", serif;
   font-weight: 600;
 }
+footer{
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  padding: 20px;
+}
 @media screen and (max-width: 768px){
   h2{
-    font-size: 36px;
+    font-size: 26px;
   }
 }

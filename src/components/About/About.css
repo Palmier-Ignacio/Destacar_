@@ -5,9 +5,6 @@
     /* flex-wrap: wrap; */
     align-items: top;
 }
-.about{
-    margin-top: 50px;
-}
 .about .about-info{
     padding: 30px;
     max-width: 800px;
@@ -16,12 +13,14 @@
     max-width: 400px;
 }
 
+
 .about h2{
     width: 100%;
     text-align: center;
     font-size: 46px;
     font-family: "Montserrat", serif;
     font-weight: 600;
+    padding-top: 50px;
 }
 .about-info h3{
     margin-top: 10px;
@@ -42,11 +41,10 @@
     justify-content: center;
 }
 .line-title .line{
-    margin-top: 20px;
+    margin-top: 10px;
     width: 100px;
     height: 3px;
-    background-color: #F28B93;
-
+    background-color: #6C3483;
 }
 b{
     color: #6C3483;
@@ -98,6 +96,13 @@ b{
 }
 @media screen and (max-width: 768px){
     .about h2{
-        font-size: 36px;
+        font-size: 26px;
+    }
+    .line-title .line{
+        width: 60px;
+    }
+    .about{
+        padding-top: 60px; /* Ajusta según la altura del nav */
+      margin-top: -60px;
     }
 }

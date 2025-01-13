@@ -1,4 +1,4 @@
-.logo-container .logo{
+.logo-container .logo {
     display: block;
     background-image: url("./assets/img/Logo_Web.png");
     width: 200px;
@@ -12,7 +12,7 @@
     /* border: 1px solid black; */
 }
 
-header.navBar{
+header.navBar {
     background-color: #F28B93;
     display: flex;
     flex-wrap: wrap;
@@ -21,13 +21,13 @@ header.navBar{
     height: 80px;
 }
 
-.navBar nav.nav-web{
+.navBar nav.nav-web {
     width: 1300px;
     /* border:1px solid black; */
     height: 100%;
 }
 
-.navBar nav.nav-web ul{
+.navBar nav.nav-web ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -35,19 +35,19 @@ header.navBar{
     /* background-color: green; */
 }
 
-.navBar nav.nav-web ul li{
+.navBar nav.nav-web ul li {
     list-style: none;
     font-size: 18px;
     /* background-color: white; */
 }
 
-.navBar nav.nav-web ul li .linea{
+.navBar nav.nav-web ul li .linea {
     width: 2px;
     background-color: white;
     height: 30px;
 }
 
-.navBar nav.nav-web ul li a{
+.navBar nav.nav-web ul li a {
     text-decoration: none;
     color: white;
     margin: 0px 10px;
@@ -55,15 +55,13 @@ header.navBar{
     font-family: sans-serif;
 }
 
-.navBar nav.nav-web ul li a:hover{
+.navBar nav.nav-web ul li a:hover {
     color: #6C3483;
-    transition: all 0.2s ease-in-out;   
+    transition: all 0.2s ease-in-out;
     /* text-decoration: underline; */
 }
-.nav-movile{
-    display: none;
-}
-.nav-movile-button{
+
+.nav-movile-button {
     width: 50px;
     height: 50px;
     background-color: #6C3483;
@@ -76,7 +74,8 @@ header.navBar{
     align-items: center;
     display: none;
 }
-.nav-movile-button .nav-movile-button-line{
+
+.nav-movile-button .nav-movile-button-line {
     width: 70%;
     height: 5px;
     /* border-radius: 20px; */
@@ -84,38 +83,113 @@ header.navBar{
     border-radius: 3px;
 
 }
-@media screen and (max-width: 1550px){
-    .navBar nav.nav-web{
+
+nav.nav-movile {
+    display: none;
+}
+
+@media screen and (max-width: 1550px) {
+    .navBar nav.nav-web {
         width: 70%;
     }
-    .logo-container .logo{
+
+    .logo-container .logo {
         width: 180px;
         height: 50px;
     }
-    header.navBar{
+
+    header.navBar {
         height: 60px;
     }
-    .navBar nav.nav-web ul li a{
+
+    .navBar nav.nav-web ul li a {
         padding: 20px 20px;
     }
 }
-@media screen and (max-width: 940px){
-    header.navBar nav.nav-web ul li a{
+
+@media screen and (max-width: 940px) {
+    header.navBar nav.nav-web ul li a {
         font-size: 16px;
         font-weight: 600;
         padding: 20px 6px;
     }
 }
-@media screen and (max-width: 768px){
-    .navBar nav.nav-web{
+
+@media screen and (max-width: 768px) {
+    .navBar nav.nav-web {
         display: none;
     }
-    .nav-movile-button{
+
+    .nav-movile-button {
         display: flex;
         margin-right: 20px;
+        z-index: 1000;
     }
-    header.navBar{
+
+    header.navBar {
         display: flex;
         justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+        scroll-margin-top: 60px;
+    }
+
+    .navBar nav.nav-movile.hidden {
+        /* display: block; */
+        animation: hiddenNav 0.5s ease forwards;
+    }
+
+    .navBar nav.nav-movile.show {
+        display: block;
+        animation: slideNav 0.5s ease forwards;
+    }
+
+    .navBar nav.nav-movile {
+        position: fixed;
+        z-index: 6;
+        right: 0;
+        background-color: #F28B93;
+    }
+
+    nav.nav-movile ul li {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        /* background-color: red; */
+        list-style: none;
+        text-align: center;
+    }
+    nav.nav-movile ul li a {
+        padding: 20px 20px;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+    }
+    nav.nav-movile ul li .linea-movile {
+        height: 3px;
+        width: 100%;
+        background-color: white;
+        margin: auto;
     }
 }
+@keyframes slideNav {
+    from {
+      top: -240px;
+    }
+  
+    to {
+      top: 60px;
+    }
+  }
+  @keyframes hiddenNav {
+    from {
+      display: block;
+      top: 60px;
+    }
+  
+    to {
+      top: -240px;
+      display: none;
+    }
+  }
