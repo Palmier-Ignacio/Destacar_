@@ -94,14 +94,29 @@
     .hero .hero-line .line{
         margin: auto;
     }
-    .hero .img-hero-movile{
-        display: block;
-        width: 90%;
-        margin: auto;
+    
+
+    .hero .hero-text h1{
+        font-size: 26px;
     }
-    .hero .hero-image{
-        display: none;
+    .hero .hero-text p{
+        font-size: 16px;
     }
+    .hero .hero-text span{
+        font-size: 16px;
+    }
+    .hero .hero-text a{
+        font-size: 18px;
+    }
+    .hero{
+        margin-top: 20px;
+    }
+    .hero .hero-text p{
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
     .hero .hero-text{
         width: 100%;
     }
@@ -113,16 +128,12 @@
         width: 100%;
         text-align: center;
     }
-    .hero .hero-text h1{
-        font-size: 26px;
+    .hero .img-hero-movile{
+        display: block;
+        width: 90%;
+        margin: auto;
     }
-    .hero .hero-text p{
-        font-size: 16px;
-    }
-    .hero{
-        margin-top: 20px;
-    }
-    .hero .hero-text p{
-        margin-bottom: 12px;
+    .hero .hero-image{
+        display: none;
     }
 }

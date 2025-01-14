@@ -1,0 +1,96 @@
+[
+    {
+        "title": "Paquete Básico: Impulso Digital",
+        "price": "$90.000",
+        "items": [
+            {
+                "name": "Cantidad de publicaciones",
+                "text": "3 a la semana (12 al mes)."
+            },
+            {
+                "name": "Tipo de contenido",
+                "text": "Imágenes y textos optimizados."
+            },
+            {
+                "name": "Historias",
+                "text": "5 a la semana (20 al mes)"
+            },
+            {
+                "name": "Creación de contenido",
+                "text": "Diseño gráfico, edición simple de fotos, redacción de textos optimizados."
+            },
+            {
+                "name": "Programación y monitoreo",
+                "text": "Incluido."
+            },
+            {
+                "name": "Interacción",
+                "text": "Respuesta a comentarios y mensajes, de lunes a viernes."
+            }
+        ]
+    },
+    {
+        "title": "Paquete Intermedio: Crecimiento Estratégico",
+        "price": "$116.000",
+        "items": [
+            {
+                "name": "Cantidad de publicaciones",
+                "text": "4 a la semana (16 al mes)."
+            },
+            {
+                "name": "Tipo de contenido",
+                "text": "Imágenes, Reels, carruseles, textos optimizados."
+            },
+            {
+                "name": "Historias",
+                "text": "10 a la semana (40 al mes)."
+            },
+            {
+                "name": "Creación de contenido",
+                "text": "Diseño gráfico avanzado, edición de video, creación de Reels, edición de fotos, redacción de textos optimizados."
+            },
+            {
+                "name": "Programación y monitoreo",
+                "text": "Incluido."
+            },
+            {
+                "name": "Interacción",
+                "text": "Respuesta a comentarios y mensajes, de lunes a viernes."
+            }
+        ]
+    },
+    {
+        "title": "Paquete Intermedio: Dominio Digital",
+        "price": "$145.000",
+        "items": [
+            {
+                "name": "Cantidad de publicaciones",
+                "text": "5 a la semana (20 al mes)."
+            },
+            {
+                "name": "Tipo de contenido",
+                "text": "Imágenes, Reels, carruseles, textos optimizados."
+            },
+            {
+                "name": "Historias",
+                "text": "15 a la semana (60 al mes)."
+            },
+            {
+                "name": "Creación de contenido",
+                "text": "Diseño gráfico avanzado, edición profesional de videos, creación de Reels, edición de fotos, redacción de textos optimizados con investigación de SEO."
+            },
+            {
+                "name": "Programación y monitoreo",
+                "text": "Incluido."
+            },
+            {
+                "name": "Interacción",
+                "text": "Respuesta a comentarios y mensajes, de lunes a sábado."
+            },
+            {
+                "name": "Extras",
+                "text": "Análisis mensual de métricas y asesoramiento estratégico para campañas."
+            }
+        ]
+    }
+]

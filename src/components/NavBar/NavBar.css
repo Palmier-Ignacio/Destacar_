@@ -19,6 +19,7 @@ header.navBar {
     justify-content: center;
     align-items: center;
     height: 80px;
+    box-shadow: 0 0 10px #00000041;
 }
 
 .navBar nav.nav-web {
@@ -147,10 +148,12 @@ nav.nav-movile {
     }
 
     .navBar nav.nav-movile {
-        position: fixed;
+        position: absolute;
         z-index: 6;
         right: 0;
         background-color: #F28B93;
+    box-shadow: 0 0 10px #00000041;
+
     }
 
     nav.nav-movile ul li {
