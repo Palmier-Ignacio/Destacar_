@@ -19,9 +19,6 @@
 }
 
 .hero .hero-text h1{
-    font-size: 46px;
-    font-family: "Montserrat", serif;
-    font-weight: 600;
     margin-bottom: 24px;
 }
 
@@ -31,7 +28,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.hero .hero-text a{
+.hero .hero-text .hero-button{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -44,7 +41,7 @@
 .hero .hero-line{
     display: none;
 }
-.hero .hero-text a:hover{
+.hero .hero-text .hero-button:hover{
     background-color: #C3A6E4;
     transition: all 0.2s ease-in-out;
     box-shadow: 0 0 10px #a48bc2;
@@ -75,9 +72,6 @@
 }
 
 @media screen and (max-width: 1550px){
-    .hero .hero-text h1{
-        font-size: 36px;
-    }
     .hero .hero-text p{
         font-size: 18px;
     }
@@ -94,18 +88,13 @@
     .hero .hero-line .line{
         margin: auto;
     }
-    
-
-    .hero .hero-text h1{
-        font-size: 26px;
-    }
     .hero .hero-text p{
         font-size: 16px;
     }
     .hero .hero-text span{
         font-size: 16px;
     }
-    .hero .hero-text a{
+    .hero .hero-text .hero-button{
         font-size: 18px;
     }
     .hero{
@@ -124,7 +113,7 @@
         width: 100%;
         text-align: center;
     }
-    .hero .hero-text a{
+    .hero .hero-text .hero-button{
         width: 100%;
         text-align: center;
     }

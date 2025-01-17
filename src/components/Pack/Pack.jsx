@@ -1,4 +1,5 @@
 import React from "react";
+import "./Pack.css"
 
 function Pack(props){
     return(

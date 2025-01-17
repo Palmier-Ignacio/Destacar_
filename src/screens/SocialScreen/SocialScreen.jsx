@@ -5,11 +5,11 @@ import Packs from "../../components/Packs/Packs";
 
 function SocialScreen() {
   return (
-    <div>
+    <section id="servicios">
       <NavBar/>
-      <h1>Servicios</h1>
+      <h1 className="title-services">Servicios</h1>
       <Packs/>
-    </div>
+    </section>
   );
 }
 

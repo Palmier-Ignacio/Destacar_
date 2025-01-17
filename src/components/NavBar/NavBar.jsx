@@ -10,7 +10,7 @@ function NavBar() {
             </div>
             <nav className="nav-web">
                 <ul>
-                    <li><Link to="/potencia-tus-redes">Potencia tus redes</Link></li>
+                    <li><Link to="/potencia-tus-redes/#servicios">Potencia tus redes</Link></li>
                     <li><div className="linea"></div></li>
                     <li><Link to="/#testimonios">Testimonios</Link></li>
                     <li><div className="linea"></div></li>
@@ -27,7 +27,7 @@ function NavBar() {
             <nav className={`nav-movile ${navMovileIsActive ? " show" : " hidden"}`}>
                 <ul>
                     <li><div className="linea-movile"></div></li>
-                    <li><Link to="/potencia-tus-redes">Potencia tus redes</Link></li>
+                    <li><Link to="/potencia-tus-redes/#servicios">Potencia tus redes</Link></li>
                     <li><div className="linea-movile"></div></li>
                     <li><Link to="/#testimonios">Testimonios</Link></li>
                     <li><div className="linea-movile"></div></li>

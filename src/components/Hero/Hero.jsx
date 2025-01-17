@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css';
+import { Link } from 'react-router';
 function Hero() {
   return (
     <section className="hero" id="inicio">
@@ -10,7 +11,7 @@ function Hero() {
         <p>Diseño planes a medida para que tu negocio conecte con las personas correctas, aumente su alcance y convierta seguidores en clientes fieles. Desde contenido innovador hasta campañas impactantes, mi trabajo está orientado a que tu marca deje huella en el mundo digital.</p>
         <p>Si buscás destacar, conectar y crecer, estoy lista para acompañarte en ese camino.</p>
         <span>¡Empecemos hoy!</span>
-        <a href=''>Potenciá tus redes conmigo</a>
+        <Link to="/potencia-tus-redes" className="hero-button">Potencia tus redes conmigo</Link>
       </div>
       <div className="hero-image">
         <img src=".\assets\img\profile_photo.png" alt="" />

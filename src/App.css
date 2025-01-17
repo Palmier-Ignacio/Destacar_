@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+h1{
+  font-size: 46px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+}
 body{
   background-color: #F5F3EF;
 }
@@ -17,7 +22,18 @@ footer{
   font-family: sans-serif;
   padding: 20px;
 }
+@media screen and (max-width: 1550px){
+  h1{
+    font-size: 36px;
+  }
+  h2{
+    font-size: 36px;
+  }
+}
 @media screen and (max-width: 768px){
+  h1{
+    font-size: 26px;
+  }
   h2{
     font-size: 26px;
   }
