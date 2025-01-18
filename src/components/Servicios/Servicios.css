@@ -1,0 +1,16 @@
+.servicios{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 1500px;
+    margin:auto;
+}
+
+.services h2{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.services .line-title{
+    margin-bottom: 30px;
+}

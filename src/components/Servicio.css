@@ -1,0 +1,144 @@
+.service{
+    width: 90%;
+    margin: auto;
+    background-color: #E4B1AB;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    color: rgb(62, 62, 62);
+    margin-bottom: 40px;
+}
+.service .service-name h3{
+    text-align: center;
+    font-size: 26px;
+    border-bottom: 2px solid #F28B93;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.service-info .service-description{
+    /* background-color: blue; */
+    padding: 20px;
+    font-size: 20px;
+}
+.service-info .items ul{
+    list-style: none;
+}
+.items{
+    padding:20px;
+}
+.items li{
+    padding-top: 14px;
+}
+
+.items h4{
+    font-size: 20px;
+}
+
+.service-info .benefits{
+    /* background-color: blue; */
+    padding: 20px;
+}
+
+.service-info .benefits p{
+    font-size: 20px;
+}
+
+.service-info .benefits ul li {
+    padding-top: 5px;
+}
+.service-info .benefits ul{
+    padding: 4px 30px;
+}
+
+.service-info .service-bottom-items{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.service-info .service-price p{
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 4px;
+    font-size: 20px;
+    color: #6C3483;
+}
+
+.service-info a{
+    display: block;
+    margin: auto;
+    padding: 8px;
+    color: white;
+    font-size: 18px;
+    width: 90%;
+    background-color: #6C3483;
+    text-align: center;
+    border-radius: 6px;
+}
+.service-info a:hover{
+    background-color: #C3A6E4;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 10px #a48bc2;
+    color: black;
+}
+.button-hide-items{
+    display: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #C3A6E4;
+    color: white;
+    width: 90%;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px){
+    .button-hide-items{
+        padding: 8px 12px;
+        display: block;
+        margin: auto;
+    }
+    .service .service-name h3{
+        font-size: 20px;
+        padding: 0px 20px;
+    }
+    
+    .service-info .service-description{
+        font-size: 16px;
+    }
+
+    .service-info .items li p{
+        font-size: 16px;
+    }
+
+    .service-info .items h4{
+        font-size: 18px;
+    }
+
+    .service-info .service-bottom-items{
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .service-info .benefits p{
+        font-size: 18px;
+    }
+    .service-info .benefits{
+        padding-bottom: 0;
+        padding-top: 6px;
+    }
+    .service{
+        padding: 20px 2px;
+    }
+
+    .service-info .hide{
+        padding: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+    .service-info .show{
+        max-height: auto;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+}

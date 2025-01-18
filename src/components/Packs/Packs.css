@@ -4,15 +4,24 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: stretch;
+    width: 80%;
+    max-width: 1500px;
+    margin: auto;
 }
 .title-services{
-    width: 100%;
     text-align: center;
     padding: 50px;
+    padding-bottom: 0px;
+    width: 100%;
+}
+.packs-subtitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 @media screen and (max-width: 768px){
     .title-services{
         padding-top: 80px; 
-        padding-bottom: 20px;
+        /* padding-bottom: 20px; */
     }
 }

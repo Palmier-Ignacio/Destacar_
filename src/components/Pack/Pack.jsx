@@ -9,6 +9,7 @@ function Pack(props){
             </div>
             <div className="pack-info">
                 <ul className="pack-items">
+                    <li><h4>Incluye:</h4></li>
                     {props.items.map((item,idx) => 
                         <li key={item.name+idx}>
                             <p><b>{item.name}:</b> {item.text}</p>
@@ -17,7 +18,7 @@ function Pack(props){
                 </ul>
                 <div className="pack-price">
                     <p>{props.price} <span>/mes</span></p>
-                    <a href="">¡Lo quiero!</a>
+                    <a href={`https://wa.me/+5491144772069?text=Hola%20Destacar%20digital!%20Me%20gustaria%20adquirir%20el%20${props.title}`} target="blanc_">¡Lo quiero!</a>
                 </div>
             </div>
         </article>

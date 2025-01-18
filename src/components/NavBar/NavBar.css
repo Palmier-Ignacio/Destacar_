@@ -1,15 +1,18 @@
 .logo-container .logo {
-    display: block;
-    background-image: url("./assets/img/Logo_Web.png");
+    display: flex;
     width: 200px;
     height: 60px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
     margin-left: 10px;
     background-color: #F5F3EF;
     border-radius: 50px;
-    /* border: 1px solid black; */
+    overflow: hidden;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.logo-container .logo img{
+    width: 100%;
 }
 
 header.navBar {

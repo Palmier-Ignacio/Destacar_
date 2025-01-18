@@ -1,0 +1,71 @@
+[
+    {
+        "title": "Asesoramiento en Redes Sociales",
+        "price": "$50.000",
+        "description": "Transformá tu perfil en redes sociales y aprendé a destacar con una presencia profesional y estratégica. Este servicio está pensado para optimizar tu cuenta con los recursos que ya tenés, ajustando detalles clave para mejorar tu impacto visual y conexión con tu audiencia.",
+        "items": [
+            {
+                "name": "Estética y fondos",
+                "text": "Te guiamos para elegir fondos, composiciones y estilos que se adapten a tu marca y atraigan a tu público objetivo."
+            },
+            {
+                "name": "Optimización de publicaciones",
+                "text": "Aprendé cómo estructurar y planificar contenido efectivo, incluyendo imágenes, Reels, carruseles y descripciones persuasivas."
+            },
+            {
+                "name": "Uso de hashtags y estrategias",
+                "text": "Descubrí cómo maximizar tu alcance de manera orgánica con estrategias simples y efectivas."
+            },
+            {
+                "name": "Consejos para historias",
+                "text": "Diseñamos estrategias para que tus historias sean atractivas, dinámicas y constantes."
+            }
+        ],
+        "benefits": {
+            "name": "Beneficios del Asesoramiento",
+            "items": [
+                "Mejorarás la percepción profesional de tu cuenta.",
+                "Tendrás las herramientas para gestionar tus redes con coherencia y estilo.",
+                "Incrementarás la interacción y el engagement con tu audiencia."
+            ]
+        },
+        "bottom_items": [
+            "Con nuestro asesoramiento, potenciás tu presencia enfocándote en cómo sacar el mejor provecho de tu identidad actual. ¡Consultanos para más información!"
+        ]
+    },
+    {
+        "title": "Servicio de Identidad Visual Renovada",
+        "price": "$90.000",
+        "description": "Dale un nuevo aire a tu marca con un diseño fresco, moderno y alineado a tus objetivos. Nuestro servicio de Rediseño de Marca está pensado para empresas y emprendedores que buscan profesionalizar su imagen y destacar en el mercado con una identidad visual coherente y atractiva.",
+        "items": [
+            {
+                "name": "Rediseño de logo",
+                "text": "Creamos un logotipo que represente la esencia de tu marca, con un diseño actual, memorable y versátil."
+            },
+            {
+                "name": "Paleta de colores personalizada",
+                "text": "Seleccionamos los colores que reflejen tu personalidad de marca, asegurando armonía y conexión con tu público objetivo."
+            },
+            {
+                "name": "Tipografía y estilo",
+                "text": "Te ayudamos a definir las fuentes y elementos visuales que complementen tu identidad."
+            },
+            {
+                "name": "Manual básico de identidad visual",
+                "text": "Recibirás una guía para aplicar tu nueva identidad en redes sociales, materiales gráficos y otros soportes."
+            }
+        ],
+        "benefits": {
+            "name": "Beneficios de renovar tu marca",
+            "items": [
+                "Actualizás la percepción que tus clientes tienen de tu negocio.",
+                "Mejorás la consistencia visual en todas tus plataformas.",
+                "Transmitís profesionalismo y confianza, ayudando a captar nuevas audiencias."
+            ]
+        },
+        "bottom_items": [
+            "Este servicio es ideal si querés dar el siguiente paso en el crecimiento de tu marca o si sentís que tu imagen actual ya no refleja lo que querés comunicar.",
+            "¡Tu marca merece destacarse! Consultanos para más detalles y trabajemos juntos en esta transformación."
+        ]
+    }
+]
