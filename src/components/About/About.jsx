@@ -8,7 +8,7 @@ function About() {
           </div>
         <div className="about-container">
           <div className="about-image">
-            <img src="../../public\assets\img\Logo_Movile.png" alt="" className="logo-movile"/>
+            <img src="\assets\img\Logo_Movile.png" alt="" className="logo-movile"/>
           </div>
           <div className="about-info">
               <p><b>Destacar digital</b> surgió desde mi pasión por el mundo del marketing digital y el poder de las <b>redes sociales</b> para <b>conectar personas</b> y <b>transformar negocios.</b> Con más de 3 años de experiencia como community manager, descubrí que cada marca tiene una historia única que merece ser contada.</p>
