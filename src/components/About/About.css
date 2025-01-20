@@ -59,7 +59,7 @@ b{
     .about .about-info p{
         font-size: 18px;
     }
-    .about .about-image img{
+    .about .about-image .logo-web{
         max-width: 300px;
     }
 }
@@ -78,12 +78,19 @@ b{
         display: none;
     }
     .about-image{
-        background-image: url("./assets/img/Logo_Web.png");
         width: 400px;
         height: 160px;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: center;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* align-content: center; */
+    }
+    .about-image .logo-web{
+        align-self: center;
+        width: 100%;
+        display: block;
+        /* background-color: red; */
     }
 }
 @media screen and (max-width: 425px){
