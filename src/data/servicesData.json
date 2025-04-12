@@ -1,4 +1,32 @@
 [
+    {   
+        "title": "Edición Multimedia Profesional",
+        "price": "",
+        "description": "Potencia la imagen de tu marca con contenido visual de alto impacto. Ofrecemos servicios de edición de fotos y videos ideales para redes sociales y campañas digitales.",
+        "items": [
+            {
+                "name": "Edición de fotos y videos."
+            },
+            {
+                "name": "Contenido para campañas publicitarias."
+            },
+            {
+                "name": "Diseños para historias, feed, reels y flyers digitales."
+            }
+        ],
+        "benefits": {
+            "name": "Beneficios",
+            "items": [
+                "Mejora la calidad visual de tu perfil.",
+                "Aumenta el engagement con contenido atractivo.",
+                "Proyecta una imagen profesional en cada publicación."
+            ]
+        },
+        "bottom_items": [
+            "¡Lleva tus redes al siguiente nivel!"
+        ],
+        "textButton": "Cotiza ahora"
+    },
     {
         "title": "Asesoramiento en Redes Sociales",
         "price": "$50.000",
@@ -69,36 +97,6 @@
             "¡Tu marca merece destacarse! Consultanos para más detalles y trabajemos juntos en esta transformación."
         ],
         "textButton": "¡Lo quiero!"
-    },
-
-
-    {   
-        "title": "Edición Multimedia Profesional",
-        "price": "",
-        "description": "Potencia la imagen de tu marca con contenido visual de alto impacto. Ofrecemos servicios de edición de fotos y videos ideales para redes sociales y campañas digitales.",
-        "items": [
-            {
-                "name": "Edición de fotos y videos."
-            },
-            {
-                "name": "Contenido para campañas publicitarias."
-            },
-            {
-                "name": "Diseños para historias, feed, reels y flyers digitales."
-            }
-        ],
-        "benefits": {
-            "name": "Beneficios",
-            "items": [
-                "Mejora la calidad visual de tu perfil.",
-                "Aumenta el engagement con contenido atractivo.",
-                "Proyecta una imagen profesional en cada publicación."
-            ]
-        },
-        "bottom_items": [
-            "¡Lleva tus redes al siguiente nivel!"
-        ],
-        "textButton": "Cotiza ahora"
     }
 ]
 
