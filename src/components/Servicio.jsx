@@ -17,22 +17,22 @@ function Servicio(props) {
                 <div className={`items ${isActive ? "show" : "hide"}`}>
                     <h4>¿Qué incluye? </h4>
                     <ul>
-                        {props.items.map((item, idx) => <li><p><b>{item.name}:</b> {item.text}</p></li>)}
+                        {props.items.map((item, idx) => <li key={idx+"-incluye-item"}><p><b>{item.name} {item.text ? ":" : ""}</b> {item.text}</p></li>)}
                     </ul>
                 </div>
                 <div className={`benefits ${isActive ? "show" : "hide"}`}>
                     <p>{props.benefits.name}:</p>
                     <ul>
-                        {props.benefits.items.map((item, idx) => <li>{item}</li>)}
+                        {props.benefits.items.map((item, idx) => <li key={idx+"-beneficio-item"}>{item}</li>)}
                     </ul>
                 </div>
                 <button className="button-hide-items" onClick={() => toggleHeight()}>{isActive ? "ocultar" : "ver más"}</button>
                 <div className="service-bottom-items">
-                    {props.bottom_items.map((item, idx) => <p>{item}</p>)}
+                    {props.bottom_items.map((item, idx) => <p key={idx+"-bottom-item"}>{item}</p>)}
                 </div>
                 <div className="service-price">
                     <p>{props.price}</p>
-                    <a href={`https://wa.me/+5491144772069?text=Hola%20Destacar%20digital!%20Me%20gustaria%20adquirir%20el%20${props.title}`} target="blanc_">¡Lo quiero!</a>
+                    <a href={`https://wa.me/+5491144772069?text=Hola%20Destacar%20digital!%20Me%20gustaria%20adquirir%20el%20servicio%20${props.title}`} target="blanc_">{props.textButton}</a>
                 </div>
             </div>
         </article>

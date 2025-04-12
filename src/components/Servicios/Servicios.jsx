@@ -9,7 +9,7 @@ function Servicios(){
             <div className="line-title">
                 <div className="line"></div>
             </div>
-            {servicesData.map((service, idx) => <Servicio title={service.title} price={service.price} description={service.description} items={service.items} benefits={service.benefits} bottom_items={service.bottom_items}/>)}
+            {servicesData.map((service, idx) => <Servicio key={"service-"+idx} title={service.title} price={service.price} description={service.description} items={service.items} benefits={service.benefits} bottom_items={service.bottom_items} textButton={service.textButton}/>)}
         </section>
     )
 }

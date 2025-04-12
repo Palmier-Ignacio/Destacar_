@@ -31,10 +31,11 @@
         },
         "bottom_items": [
             "Con nuestro asesoramiento, potenciás tu presencia enfocándote en cómo sacar el mejor provecho de tu identidad actual. ¡Consultanos para más información!"
-        ]
+        ],
+        "textButton": "¡Lo quiero!"
     },
     {
-        "title": "Servicio de Identidad Visual Renovada",
+        "title": "Identidad Visual Renovada",
         "price": "$90.000",
         "description": "Dale un nuevo aire a tu marca con un diseño fresco, moderno y alineado a tus objetivos. Nuestro servicio de Rediseño de Marca está pensado para empresas y emprendedores que buscan profesionalizar su imagen y destacar en el mercado con una identidad visual coherente y atractiva.",
         "items": [
@@ -66,6 +67,38 @@
         "bottom_items": [
             "Este servicio es ideal si querés dar el siguiente paso en el crecimiento de tu marca o si sentís que tu imagen actual ya no refleja lo que querés comunicar.",
             "¡Tu marca merece destacarse! Consultanos para más detalles y trabajemos juntos en esta transformación."
-        ]
+        ],
+        "textButton": "¡Lo quiero!"
+    },
+
+
+    {   
+        "title": "Edición Multimedia Profesional",
+        "price": "",
+        "description": "Potencia la imagen de tu marca con contenido visual de alto impacto. Ofrecemos servicios de edición de fotos y videos ideales para redes sociales y campañas digitales.",
+        "items": [
+            {
+                "name": "Edición de fotos y videos."
+            },
+            {
+                "name": "Contenido para campañas publicitarias."
+            },
+            {
+                "name": "Diseños para historias, feed, reels y flyers digitales."
+            }
+        ],
+        "benefits": {
+            "name": "Beneficios",
+            "items": [
+                "Mejora la calidad visual de tu perfil.",
+                "Aumenta el engagement con contenido atractivo.",
+                "Proyecta una imagen profesional en cada publicación."
+            ]
+        },
+        "bottom_items": [
+            "¡Lleva tus redes al siguiente nivel!"
+        ],
+        "textButton": "Cotiza ahora"
     }
 ]
+
