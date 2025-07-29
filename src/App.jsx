@@ -9,13 +9,17 @@ import ScrollToSection from './components/ScrollToSection/ScrollToSection'
 function App() {
   
   return (
-    <BrowserRouter>
-      <ScrollToSection />
-      <Routes>
-        <Route path="/" element={<HomeScreen/>} />
-        <Route path="/potencia-tus-redes" element={<SocialScreen/>} />
-      </Routes>
-    </BrowserRouter>
+    // <BrowserRouter>
+    //   <ScrollToSection />
+    //   <Routes>
+    //     <Route path="/" element={<HomeScreen/>} />
+    //     <Route path="/potencia-tus-redes" element={<SocialScreen/>} />
+    //   </Routes>
+    // </BrowserRouter>
+    <React.Fragment>
+      <h1>¡Página en mantenimiento!</h1>
+      <p>Estamos trabajando para mejorar tu experiencia. Vuelve pronto.</p>
+    </React.Fragment>
   )
 }
 
